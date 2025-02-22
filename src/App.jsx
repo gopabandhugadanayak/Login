@@ -11,7 +11,6 @@ const App = () => {
   return (
     <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 to-purple-600 text-white">
       <div className="relative w-96 bg-white text-gray-900 p-8 rounded-xl shadow-lg">
-        {/* Toggle between Login & Register */}
         <h2 className="text-2xl font-bold text-center mb-6">{open ? "Register" : "Login"}</h2>
 
         <form className="flex flex-col space-y-4">
